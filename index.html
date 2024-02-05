@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;1,700&family=Preahvihear&family=REM:ital,wght@0,100;0,300;1,500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./style.css">
+ <link rel="stylesheet" href="./reset.css">   
+    <title>MuriloFx - GeratorOfPasswords</title>
+</head>
+<body>
+
+<main>
+
+<section class="top">
+<h1 class="title">Gerator Of Passwords</h1>
+  <p class="sub-title">Use our online gerator to create strong and secure passwords.</p>
+
+                                 </section>
+
+                          <section class="box">
+
+                          <div class="password">
+
+                             <div class="text">
+            <input type="text" name='password' id="password">
+
+                                  </div>
+
+                            <div class="actions">
+                        <button id="copy-2"><img src="./copy.svg"></button>
+                        <button id="reload"><img src="./reload.svg"></button>
+
+
+                                  </div>
+
+                                  </div>
+                      <div class="security-indicator">
+
+                          <div class="bar"   id="security-indicator-bar" >
+
+
+
+                          </div>
+
+
+                                  </div>
+
+
+
+                                 </section>
+
+                                 
+
+                                 <section class="box customize">
+
+<h3 class="title">Personalize</h3>
+<div class="actions">
+
+<div class="password-length">
+    <p>Size: <span id="password-length-text">16</span></p>
+    <input type="range" class="slider" name="password-length" id="password-length" value="16" min="4" max="64">
+</div>
+<div class="config">
+    <label class="chackbox-container">
+<span class="text">Capital letters</span>
+<input type="checkbox" id="uppercase-check" checked>
+<span class="checkmate"></span>
+    </label>
+
+    <label class="chackbox-container">
+        <span class="text">Numbers</span>
+        <input type="checkbox" id="number-check" checked>
+        <span class="checkmate"></span>
+            </label>
+        
+            <label class="chackbox-container">
+                <span class="text">Symbols</span>
+                <input type="checkbox" id="symbol-check" checked>
+                <span class="checkmate"></span>
+                    </label>
+                
+                        
+</div>
+
+
+</div>
+
+                                 </section>
+
+  
+  
+  
+  
+  <div class="submit">
+  <button id="copy">copy password</button>
+</div>
+</main>
+
+<script src="./script.js"></script>
+
+
+</body>
+</html>
